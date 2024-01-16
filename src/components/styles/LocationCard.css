@@ -1,0 +1,35 @@
+.location {
+  background-color: #062226;
+  padding: 1em 1em .5em;
+  border-radius: 0.8em;
+  max-width: 350px;
+  width: 100%;
+}
+.location__title {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 0.2em;
+  color: rgb(124, 191, 69);
+}
+
+.location__list {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  text-align: center;
+  row-gap: 1px;
+}
+.location__item {
+  display: grid;
+  align-items: center;
+  grid-gap: 10px;
+}
+.location__label {
+  font-size: 0.85rem;
+  color: aliceblue;
+
+}
+.location__value {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: rgb(131, 134, 134);
+}
